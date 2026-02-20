@@ -95,8 +95,7 @@ public class BossEnemyBuilder implements EnemyBuilder{
         int phase2 = phases.getOrDefault(2, health / 2);
         int phase3 = phases.getOrDefault(3, health / 3);
         return new DragonBoss(name, health, damage, defense, speed, element, abilities,
-                phase1, phase2, phase3, lootTable, aiBehavior, canFly, hasBreathAttack, wingspan
-        );
+                phase1, phase2, phase3, lootTable, aiBehavior, canFly, hasBreathAttack, wingspan);
     }
 
 }
