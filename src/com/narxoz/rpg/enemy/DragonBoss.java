@@ -126,7 +126,6 @@ public class DragonBoss implements Enemy {
                 phaseCopy.getOrDefault(2, health / 2),
                 phaseCopy.getOrDefault(3, health / 3),
                 lootCopy,
-                aiBehavior, canFly, hasBreathAttack, wingspan
-        );
+                aiBehavior, canFly, hasBreathAttack, wingspan);
     }
 }
